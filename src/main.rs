@@ -1,7 +1,7 @@
 use std::io;
-
+mod print;
 fn main() {
-    println!("Welcome to calculater!");
+    print::print_it();
 
     let mut current_val = 0.0;
     let mut operator = "+";
